@@ -1,0 +1,67 @@
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: rgb(44, 44, 44);
+  border-width: 0px;
+}
+
+*:focus {
+  outline: none;
+}
+
+input {
+  border-radius: 1rem;
+  border-width: 1px;
+  padding: .5rem 1rem;
+
+}
+
+body {
+  font-size: 16px;
+  padding: 2rem 0;
+
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-container {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.form-container:nth-child(2n+1) {
+  text-align: right;
+}
+
+.submit-btn {
+  display: block;
+  padding: .5rem 1rem;
+  margin: 2rem auto;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.main_app {
+  display: flex;
+  flex-direction: column;
+}
+
+.car-list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 3rem;
+}
+
+.car-item {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
